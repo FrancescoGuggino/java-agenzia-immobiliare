@@ -14,9 +14,10 @@ public class Main {
 
         Villa v = new Villa("qwe321", "via via 1", 20090, "Opera", 300, 8, 4, 80 );
 
+        System.out.println(immobile.toString());
         System.out.println(b.toString());
         System.out.println(a.toString());
         System.out.println(v.toString());
-        System.out.println(immobile.toString());
+
     }
 }

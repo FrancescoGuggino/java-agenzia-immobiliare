@@ -18,4 +18,10 @@ public class Villa extends Abitazione{
         return super.toString() +
                 "metraturaGiardino: " + metraturaGiardino ;
     }
+
+    public void reimpostaMetratura (int metratura, int metraturaGiardino) {
+        //super per prendere l'attributo privato dalla classe immobile
+        super.reimpostaMetratura(metratura);
+        this.metraturaGiardino = metraturaGiardino;
+    }
 }

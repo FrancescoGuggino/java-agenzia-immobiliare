@@ -54,6 +54,12 @@ public class Immobile {
 
     // metodi
 
+    // aggiorna superficie
+    public void reimpostaMetratura (int metratura){
+        this.metratura = metratura;
+
+    }
+
 public int aggiungiPersona() {
         return visualizzazioni++;
 }
@@ -69,4 +75,6 @@ public int aggiungiPersona() {
                 ", metratura:" + metratura +
                 ", visualizzazioni:" + visualizzazioni;
     }
+
+
 }
